@@ -8,7 +8,7 @@ function _loadJs(b) {
     var a = document.createElement("script");
     a.type = "text/javascript";
     a.charset = "UTF-8";
-    a.src = browser.runtime.getURL(b);
+    a.src = b;
     _injectChild(a)
 }
 
