@@ -23,7 +23,7 @@ function _loadCss(b) {
 
 var d=document;
 var b=d.body;
-_loadJs('provider/google.js')
+_loadJs('../Analysis/provider/google.js')
 var v=b.insertBefore(d.createElement('div'),b.firstChild);
 v.id='google_translate_element';
 v.style.display='none';
